@@ -1,0 +1,23 @@
+RSI v6.2 — Supervised experiment worksheet
+Use fictional data or authorized materials. Do not submit personal information.
+
+Observable objective:
+Task and reference:
+Previous instruction:
+Improvement hypothesis:
+Single change:
+Tool/version/date, if known:
+Development cases:
+Held-out cases prepared in advance:
+Mandatory criteria:
+Preference criteria:
+Limits on time, spending and attempts:
+Result for each version on each case:
+Failures and uncertainties:
+Observed cost and time (or not measured):
+Decision: approve for limited use / reject / investigate further
+Person responsible for the decision:
+Version that remains in use:
+How to roll back:
+Date/condition for the next review:
+What the experiment did NOT demonstrate:

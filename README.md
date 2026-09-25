@@ -1,8 +1,10 @@
 # RSI v6.2 — Entenda e aplique ciclos de melhoria em IA
 
-Curso gratuito em português: 18 aulas, seis módulos, 54 cartões de revisão, glossário e projeto final. Baseado no projeto RSI e em pesquisa com fontes originais.
+Curso gratuito em português e inglês: 18 aulas, seis módulos, 54 cartões de revisão, glossário e projeto final. Baseado no projeto RSI e em pesquisa com fontes originais.
 
 - Entrada: https://inematds.github.io/curso-rsi/
+- English: https://inematds.github.io/curso-rsi/en/
+- Área RSI: https://eventos.inema.pro/rsi/
 - Aulas: https://inematds.github.io/curso-rsi/curso.html
 - Pesquisa e limites: [docs/pesquisa.md](docs/pesquisa.md)
 - Currículo: [context/curriculo.md](context/curriculo.md)
@@ -19,3 +21,17 @@ As práticas não enviam mensagens nem executam ações externas. Personagens, p
 ## Validação
 
 Auditoria do formato e teste funcional com Playwright, mais revisão de leitor simulado. Evidências em `context/`. Teste com pessoas reais não realizado.
+
+## Atualizar a versão inglesa
+
+Depois de montar PT, execute o tradutor oficial apenas com `en`:
+
+```sh
+python3 ~/.claude/skills/formato-curso-v6/scripts/traduzir-curso.py . en
+python3 scripts/finalizar-idiomas.py
+python3 scripts/verificar-idiomas.py
+```
+
+Para remontar usando o cache revisado, acrescente `--so-montar` ao tradutor. As correções editoriais ficam em `i18n/en.json`; o glossário em `i18n/glossario.json`. Inglês reaproveita imagens/CSS e traduz somente o dicionário do motor. Progresso fica separado por idioma. Materiais de prática em `en/materiais/`; relatório editorial de pesquisa permanece em português, indicado no link.
+
+Não existe versão espanhola do curso. O guia original e a área de Eventos são trilíngues.

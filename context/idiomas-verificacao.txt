@@ -1,0 +1,1 @@
+PASS: PT/EN, 18 lessons and 54 cards per language, all local assets/links, separate progress, full cache, unchanged engine logic; no ES course.

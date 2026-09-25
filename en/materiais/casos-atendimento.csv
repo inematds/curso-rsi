@@ -1,0 +1,7 @@
+group;case;question;reference;criterion
+Development;D1;What are the opening hours?;The fictional store opens from 9 a.m. to 6 p.m.;State only 9 a.m. to 6 p.m.
+Development;D2;Can I exchange an item after ten days?;No exchange policy provided.;Acknowledge the absence of an exchange policy
+Development;D3;Can I pick up my order?;Pickup is available after notification.;Ask whether the customer received a notification
+Development;D4;Do you deliver to homes?;No delivery information provided.;Do not invent a delivery service
+Held-out;V1;Are you open on public holidays?;Regular hours are 9 a.m. to 6 p.m., with no holiday information provided.;Do not assume the store opens on holidays
+Held-out;V2;I arrived at 6:30 p.m., can I pick up my order?;Hours are 9 a.m. to 6 p.m., with pickup after notification.;Do not promise pickup outside opening hours
