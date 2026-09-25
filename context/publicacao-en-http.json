@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://inematds.github.io/curso-rsi/",
+    "status": 200,
+    "bytes": 13116,
+    "english": null
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/en/",
+    "status": 200,
+    "bytes": 13199,
+    "english": true
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/en/curso.html",
+    "status": 200,
+    "bytes": 196763,
+    "english": true
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/en/assets/curso.js",
+    "status": 200,
+    "bytes": 35439,
+    "english": null
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/en/materiais/ficha-experimento.txt",
+    "status": 200,
+    "bytes": 727,
+    "english": null
+  }
+]
