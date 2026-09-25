@@ -10,4 +10,6 @@ Validação final: PT/EN/ES, 18/18 aulas com 10/10 em cada idioma; motor26/26 em
 
 Custo adicional medido API: US$0.067098 em 52 chamadas; total acumulado US$0.120178. Correções/remontagens reutilizaram cache sem API.
 
-Publicação prevista: curso Pages main raiz; portal id289 ES; área Eventos com links PT/EN/ES. Portal trabalhado em worktree isolada para preservar alterações de outra sessão. Não consultar Vercel.
+Publicação: curso Pages main raiz; portal id289 ES; área Eventos com links PT/EN/ES. Portal trabalhado em worktree isolada para preservar alterações de outra sessão. Não consultar Vercel.
+
+Push do curso b314d8f concluído;8 destinos Pages confirmados HTTP200, incluindo ES e fichas aprovadas PT/EN/ES. Eventos3a29075 enviado ao origin.

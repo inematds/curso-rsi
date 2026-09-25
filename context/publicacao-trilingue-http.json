@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://inematds.github.io/curso-rsi/",
+    "status": 200,
+    "bytes": 13339
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/en/",
+    "status": 200,
+    "bytes": 13407
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/es/",
+    "status": 200,
+    "bytes": 13594
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/es/curso.html",
+    "status": 200,
+    "bytes": 208812
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/es/assets/curso.js",
+    "status": 200,
+    "bytes": 35554
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/materiais/conhecimento-aprovado.txt",
+    "status": 200,
+    "bytes": 1260
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/en/materiais/conhecimento-aprovado.txt",
+    "status": 200,
+    "bytes": 1241
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/es/materiais/conhecimento-aprovado.txt",
+    "status": 200,
+    "bytes": 1338
+  }
+]
