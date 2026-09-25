@@ -1,0 +1,69 @@
+{
+  "id": "curso-rsi-v62",
+  "titulo": "RSI v6.2 — Entenda e aplique ciclos de melhoria em IA",
+  "titulo_html": "Como uma IA pode <em>ajudar a melhorar outra?</em>",
+  "curso_curto": "RSI v6.2",
+  "kicker": "RSI v6.2 · 6 módulos · 18 aulas",
+  "lead": "Entenda o autoaperfeiçoamento recursivo, examine estudos reais e monte um ciclo supervisionado de melhoria. Leitura curta, exemplos visíveis e uma prática por aula.",
+  "imagem_trilha": "assets/img/trilha.webp",
+  "alt_trilha": "Gestora e educador comparam documentos e resultados de uma experiência de melhoria numa mesa de trabalho.",
+  "rodape": "RSI v6.2 · INEMA.CLUB · <a href=\"landing.html\">sobre o curso</a>",
+  "landing": "landing.html",
+  "glossario": true,
+  "modulos": [
+    {
+      "titulo": "Módulo 1 · Fundamentos: reconhecer o que mudou",
+      "resumo": "Distinguir RSI, revisão de respostas e alegações sem evidência.",
+      "aulas": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "titulo": "Módulo 2 · Funcionamento: desenhar um ciclo",
+      "resumo": "Objetivos, papéis, avaliação, memória e adoção de melhorias.",
+      "aulas": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "titulo": "Módulo 3 · Pesquisa: ler os casos reais",
+      "resumo": "AlphaEvolve, DGM e as peças da pesquisa automatizada.",
+      "aulas": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "titulo": "Módulo 4 · Avaliação: conferir antes de confiar",
+      "resumo": "Casos reservados, manipulação de medidas e dados gerados.",
+      "aulas": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "titulo": "Módulo 5 · Aplicações: usar no trabalho",
+      "resumo": "Atendimento, educação e síntese de documentos com referências.",
+      "aulas": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "titulo": "Módulo 6 · Projeto final: decidir com evidências",
+      "resumo": "Escolher implementação, planejar um piloto e relatar seus limites.",
+      "aulas": [
+        16,
+        17,
+        18
+      ]
+    }
+  ]
+}

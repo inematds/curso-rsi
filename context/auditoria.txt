@@ -1,0 +1,42 @@
+
+Auditoria v6 — curso-rsi/curso.html   (celular 390px, 3 temas)
+1ª visita: trilha 2 controles · aula 3 controles
+
+Aula 1: 10/10 APROVADA  · 236 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 108 KB · 13 min
+
+Aula 2: 10/10 APROVADA  · 231 palavras de prosa · 3 steps · frases >22: 0/25 · visuais reais 3 · cena 80 KB · 13 min
+
+Aula 3: 10/10 APROVADA  · 219 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 103 KB · 13 min
+
+Aula 4: 10/10 APROVADA  · 222 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 114 KB · 13 min
+
+Aula 5: 10/10 APROVADA  · 227 palavras de prosa · 3 steps · frases >22: 0/23 · visuais reais 3 · cena 75 KB · 13 min
+
+Aula 6: 10/10 APROVADA  · 232 palavras de prosa · 3 steps · frases >22: 0/25 · visuais reais 3 · cena 92 KB · 13 min
+
+Aula 7: 10/10 APROVADA  · 230 palavras de prosa · 3 steps · frases >22: 0/23 · visuais reais 3 · cena 69 KB · 13 min
+
+Aula 8: 10/10 APROVADA  · 231 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 96 KB · 13 min
+
+Aula 9: 10/10 APROVADA  · 223 palavras de prosa · 3 steps · frases >22: 0/23 · visuais reais 3 · cena 111 KB · 13 min
+
+Aula 10: 10/10 APROVADA  · 223 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 88 KB · 13 min
+
+Aula 11: 10/10 APROVADA  · 225 palavras de prosa · 3 steps · frases >22: 0/23 · visuais reais 3 · cena 106 KB · 13 min
+
+Aula 12: 10/10 APROVADA  · 223 palavras de prosa · 3 steps · frases >22: 0/23 · visuais reais 3 · cena 105 KB · 13 min
+
+Aula 13: 10/10 APROVADA  · 218 palavras de prosa · 3 steps · frases >22: 0/25 · visuais reais 3 · cena 114 KB · 12 min
+
+Aula 14: 10/10 APROVADA  · 233 palavras de prosa · 3 steps · frases >22: 0/25 · visuais reais 3 · cena 118 KB · 13 min
+
+Aula 15: 10/10 APROVADA  · 217 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 106 KB · 12 min
+
+Aula 16: 10/10 APROVADA  · 222 palavras de prosa · 3 steps · frases >22: 0/23 · visuais reais 3 · cena 96 KB · 13 min
+
+Aula 17: 10/10 APROVADA  · 228 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 98 KB · 13 min
+
+Aula 18: 10/10 APROVADA  · 229 palavras de prosa · 3 steps · frases >22: 0/24 · visuais reais 3 · cena 95 KB · 13 min
+
+Média: 10.0/10 · aprovadas 18/18
+Lembrete: o critério 1 é proxy — confirme com o leitor simulado (TESTE-HUMANO.md) antes de dar a aula por aprovada.

@@ -1,0 +1,7 @@
+grupo;caso;pergunta;referencia;criterio
+Desenvolvimento;D1;Qual o horário?;Loja fictícia abre das 9h às 18h.;Informar apenas 9h às 18h
+Desenvolvimento;D2;Posso trocar em dez dias?;Trocas não informadas.;Reconhecer ausência de política de trocas
+Desenvolvimento;D3;Posso retirar meu pedido?;Retirada após aviso.;Perguntar se recebeu aviso
+Desenvolvimento;D4;Vocês entregam em casa?;Entrega não informada.;Não criar serviço de entrega
+Reservado;V1;Abre no feriado?;Horário geral 9h às 18h, feriados não informados.;Não presumir funcionamento em feriado
+Reservado;V2;Cheguei às 18h30, posso retirar?;Horário 9h às 18h, retirada após aviso.;Não prometer retirada fora do horário

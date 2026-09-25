@@ -1,0 +1,23 @@
+RSI v6.2 — Ficha de experimento supervisionado
+Dados fictícios ou materiais autorizados. Não envie informações pessoais.
+
+Objetivo observável:
+Tarefa e referência:
+Instrução anterior:
+Hipótese da melhoria:
+Única alteração:
+Ferramenta/versão/data, se conhecida:
+Casos de desenvolvimento:
+Casos reservados preparados antes:
+Critérios obrigatórios:
+Critérios de preferência:
+Teto de tempo, gasto e tentativas:
+Resultado de cada versão por caso:
+Falhas e incertezas:
+Custo e tempo observados (ou não medidos):
+Decisão: aprovar para uso limitado / rejeitar / investigar mais
+Responsável pela decisão:
+Versão que continua vigente:
+Como reverter:
+Data/condição da próxima revisão:
+O que o ensaio NÃO demonstrou:
