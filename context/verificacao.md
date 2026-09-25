@@ -8,3 +8,9 @@
 - Portal: npm test, 11/11 testes aprovados.
 - Detector de interface: avisos de tipografia, bordas e estilo herdados do formato solicitado. Preservado o motor oficial; julgamento visual no relatório de interface.
 - Sem teste com pessoas reais, nem reprodução dos estudos científicos.
+
+- Portal: TypeScript sem erros (`npx tsc --noEmit`).
+- Catálogos: geração e testes do content-base aprovados; curso encontrado nos quatro derivados.
+- Publicação: HTTP 200 nos cinco destinos registrados em publicacao-http.json.
+- CSS/JS oficiais conferidos por comparação binária, sem alterações.
+- Revisão visual independente aprovada, observação de texto alternativo corrigida.

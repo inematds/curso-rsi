@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://inematds.github.io/curso-rsi/",
+    "status": 200,
+    "bytes": 13427
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/curso.html",
+    "status": 200,
+    "bytes": 198904
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/capa/capa.png",
+    "status": 200,
+    "bytes": 613178
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/assets/curso.js",
+    "status": 200,
+    "bytes": 35375
+  },
+  {
+    "url": "https://inematds.github.io/curso-rsi/materiais/ficha-experimento.txt",
+    "status": 200,
+    "bytes": 735
+  }
+]
