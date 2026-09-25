@@ -357,3 +357,71 @@ CALMAS={
 16:'Escolha um dos três casos prontos. A decisão vale para aquelas condições, não para toda empresa ou escola.',
 17:'Primeiro calcule sem manutenção: 40 dividido por 2. Depois inclua o esforço mensal para ver se a conclusão muda.',
 18:'Use os resultados fornecidos e diga que são didáticos. A execução de um experimento próprio é uma sessão opcional posterior.'}
+
+
+# Aplicação do LOOP-R e aprovação persistente — orientação do usuário, 25/09/2026.
+FONTES['loopguia']=('LOOP-R — guia do método INEMA', 'https://inematds.github.io/loop-r/guia/')
+FONTES['loopcritica']=('LOOP-R — limites e viabilidade', 'https://github.com/inematds/loop-r/blob/main/docs/06-critica-e-viabilidade.md')
+AULAS[3]['definicao']='Adaptação didática do método LOOP-R: executar, medir, criticar, propor, testar, validar, promover e repetir.'
+AULAS[3]['steps'][2]=('Promover cria uma referência para os próximos usos',
+'Validar confere a candidata em casos reservados. Aprovar autoriza sua adoção dentro de limites escritos. Promover registra essa decisão e torna a versão vigente. Nos próximos usos equivalentes, o sistema aplica a regra aprovada sem perguntar novamente. Uma nova candidata ainda precisa de avaliação e decisão.',
+'gestora|Marina aprova a regra de horário para rascunhos. A equipe reutiliza essa regra enquanto a fonte e a autorização continuam válidas.',
+'Antes da decisão','B é candidata: resultado bom ainda não autoriza adoção.',
+'Depois da promoção','B vira a regra vigente para rascunhos. Não pedir novamente a mesma aprovação.')
+AULAS[3]['gabarito']+=' Promover exige registrar versão, responsável e usos autorizados. Repetir reutiliza a regra vigente; não reinicia a aprovação da mesma regra.'
+AULAS[3]['extra']=('O LOOP-R aplicado ao curso',
+'O projeto LOOP-R tem agentes com papéis separados, registro de experimentos, versões e memória. No modo com revisão humana, uma mudança só é promovida após avaliação favorável e aprovação. A versão promovida passa a orientar os próximos usos. O curso aplica essa disciplina com fichas, diretamente no papel. Aprovar uma nova versão difere de reutilizar a versão vigente. O registro não prova verdade universal nem melhoria em qualquer situação. Leia também a crítica do próprio projeto.')
+AULAS[3]['fontes']+=['loopguia','loopcritica']
+AULAS[3]['cartoes'][2]=('Uma regra aprovada precisa da mesma aprovação em cada uso equivalente?', 'Não. Reutilize a versão vigente dentro do escopo e da validade registrados. Mudanças ou falhas exigem revisão.')
+AULAS[4]['steps'][2]=('A autorização vale para um escopo escrito',
+'Quem aprova define a regra, os usos permitidos e os limites. Uma autorização registrada continua valendo para usos equivalentes. Não pergunte novamente só porque começou outra execução. Mudar a regra ou ampliar suas ações exige nova decisão. Aprovar conteúdo não autoriza automaticamente envio de mensagens.',
+'educador|Ícaro aprova uma regra para preparar rascunhos. O sistema reutiliza a regra, mas não altera notas nem comunica famílias.',
+'Já autorizado','Preparar rascunhos com a regra aprovada, sem repetir a pergunta.',
+'Fora do escopo','Enviar os rascunhos às famílias: essa ação ainda não foi autorizada.')
+AULAS[4]['molde']+='\nAnote uma regra já aprovada e em quais usos ela dispensa nova aprovação.\nSepare essa regra de uma ação externa que continua sem autorização.'
+AULAS[4]['gabarito']+=' A autorização registrada vale para reutilizar a mesma regra no escopo definido. Uma ação externa fora dele continua dependendo de decisão.'
+
+AULAS[5].update(
+ titulo='Transforme a aprovação em conhecimento reutilizável',
+ promessa='registrar uma aprovação e distinguir reutilização, revisão e ação ainda não autorizada.',
+ dor='Se o sistema pergunta tudo novamente, desperdiça decisões. Se trata qualquer aprovação como permissão ilimitada, pode repetir e ampliar um erro.',
+ resumo=['Uma aprovação registrada vira conhecimento aprovado do sistema.','Reutilize dentro do escopo sem pedir a mesma aprovação.','Aprove com cuidado: uma regra errada pode orientar muitos usos.'],
+ termo='conhecimento aprovado',
+ definicao='Regra ou informação aceita para usos definidos, com fonte, versão, responsável e validade. A aprovação não a torna infalível.',
+ steps=[
+ ('Registre o que realmente foi aprovado',
+ 'Separe proposta, resultado de teste e regra aprovada. No LOOP-R, a promoção liga a decisão à versão vigente. Registre o conteúdo exato, a fonte, os testes e quem autorizou. Escreva para quais tarefas a aprovação vale. Sem isso, o sistema não distingue conhecimento aprovado de uma tentativa.',
+ 'gestora|Marina aprova a regra H1: usar o horário da política vigente em rascunhos. Feriados continuam sem informação.',
+ 'Tentativa guardada','H1 passou num teste, mas ainda não recebeu autorização.',
+ 'Conhecimento aprovado','H1, política P1, Marina, 25/09/2026. Permitido: preparar rascunhos sobre horário.'),
+ ('Reutilize sem reabrir a mesma decisão',
+ 'Antes de usar, o sistema recupera a regra vigente e confere o escopo. Essa conferência não é um pedido de aprovação. Se tarefa, fonte e validade continuam compatíveis, ele segue sem perguntar novamente. Uma preferência aprovada pode orientar muitas respostas; cada resposta continua sujeita aos critérios combinados.',
+ 'educador|Ícaro aprova citar o trecho de apoio nas questões. O sistema aplica essa regra a novos rascunhos sem pedir a mesma autorização.',
+ 'Repetição equivalente','Outra pergunta sobre horário, com política P1 vigente: reutilizar H1.',
+ 'Pedido diferente','Enviar a resposta ao cliente: a aprovação para rascunhos não inclui envio.'),
+ ('Aprove pensando nos próximos usos',
+ 'Uma aprovação pode alimentar dezenas de decisões futuras. Confira conteúdo, evidência, alcance e custo de errar antes de aprovar. Se mudar a fonte, surgir contradição ou terminar a validade, suspenda o uso afetado e revise. Revogar desativa a regra, mas preserva o histórico. Aprovação humana também pode estar errada.',
+ 'gestora|A política P2 muda o horário para 10h–17h. Marina suspende H1 até revisar a referência; o sistema não insiste no horário antigo.',
+ 'Aprovação consciente','Conheço a fonte, os testes, os usos permitidos e como revogar.',
+ 'Sinal de revisão','Política mudou ou apareceu erro: interromper o uso afetado e registrar o motivo.')],
+ pratica='Preencha uma ficha de conhecimento aprovado',
+ molde='Caso fictício. Política P1: loja abre 9h–18h; feriados não informados.\nH1: usar P1 para preparar rascunhos sobre horário, sem inventar informações.\nMarina conferiu casos de horário e feriado e aprovou H1 em 25/09/2026.\nValidade: até mudar P1, surgir erro ou Marina revogar. Envio não autorizado.\nPreencha: regra; versão; fonte; evidência; quem aprovou; data; escopo; validade; como revogar.\nClassifique: A) nova pergunta sobre horário com P1 vigente; B) P2 muda para 10h–17h; C) enviar mensagem ao cliente.\nPara cada caso, escolha: reutilizar sem perguntar; suspender e revisar; pedir autorização para nova ação.\nEscreva por que aprovar H1 exige cuidado com usos futuros.',
+ checks=['Registre a aprovação com fonte, escopo, responsável e validade.','Classifique os três casos sem confundir conferência com nova aprovação.','Explique como suspender a regra e preservar sua história.'],
+ gabarito='A: reutilizar H1 sem pedir novamente, após conferir P1 e o escopo. B: suspender o uso afetado e revisar com P2. C: o envio exige autorização própria. Registre decisão e versão; ao revogar H1, retire-a do uso e preserve o histórico. Uma aprovação errada pode repetir o mesmo erro. Os testes deste caso são fictícios.',
+ quiz=('A regra H1 está aprovada e válida. Outra pergunta equivalente chegou. O que fazer?', 'Reutilizar dentro do escopo.', 'Pedir a mesma aprovação.', 'Ampliar todas as permissões.'),
+ cartoes=[('O que a aprovação passa a representar para o sistema?', 'Conhecimento aprovado para usos definidos, registrado com fonte, versão, responsável e validade.'),('Quando dispensar nova aprovação?', 'Ao reutilizar a mesma regra vigente dentro do escopo autorizado, sem mudança relevante ou sinal de erro.'),('Por que aprovar exige consciência dos próximos usos?', 'Porque a decisão pode orientar muitas execuções. Um erro aprovado pode se repetir; registre limites e como revogar.')],
+ extra=('Memória aprovada não é verdade absoluta',
+ 'Uma regra operacional aprovada é uma decisão de uso. Uma afirmação factual ainda depende de fontes e evidências. Não confunda os dois registros. Aprovar uma resposta isolada também não significa aprovar uma regra geral. Escreva se a decisão vale apenas para aquele resultado ou para reutilização. O sistema precisa guardar e consultar esse registro: uma conversa sem memória persistente não passa a conhecê-lo automaticamente. No LOOP-R, a versão vigente e o histórico ajudam a aplicar essa distinção. Novas candidatas passam por outro ciclo; a versão já autorizada não precisa de aprovação repetida.'),
+ fontes=['loopguia','loopcritica','tamper'])
+CALMAS[6]='Comece pelo caso A: nada mudou e H1 continua válida. Conferir essa validade não significa perguntar de novo a Marina.'
+AULAS[12]['resumo'][2]='Aprovar uma regra não autoriza ações fora do escopo.'
+AULAS[16]['molde']+='\nRegistre também: conhecimento aprovado; escopo de reutilização sem nova aprovação; validade; quem pode revogar.'
+AULAS[16]['gabarito']+=' A regra promovida pode ser reutilizada sem nova pergunta dentro do escopo aprovado. Mudança de política, erro ou revogação suspende o uso afetado.'
+AULAS[17]['steps'][2]=('Decida também o que poderá ser reutilizado',
+ 'Conclua: aprovar para uso limitado, rejeitar ou investigar mais. Se aprovar, registre o conhecimento aceito, a versão e os usos futuros autorizados. A mesma regra válida não exige aprovação a cada repetição. Novas mudanças passam por revisão. Declare o que o ensaio não provou e como suspender ou revogar a decisão.',
+ 'educador|Ícaro aprova uma regra para rascunhos com revisão pedagógica. Essa regra não precisa de nova aprovação a cada atividade.',
+ 'Conhecimento vigente','Regra B aprovada para preparar rascunhos, com fonte e versão registradas.',
+ 'Limite da aprovação','Não permite envio automático nem comprova melhoria de aprendizagem.')
+AULAS[17]['molde']+='\nSe decidir aprovar: registre conhecimento, versão, fonte, responsável, escopo, validade e revogação.\nDiga qual uso equivalente dispensa nova aprovação e qual mudança exige revisão.'
+AULAS[17]['gabarito']+=' No piloto autorizado, B vira conhecimento aprovado para preparar rascunhos, sem pedir a mesma aprovação a cada uso equivalente. A revisão das respostas permanece no escopo do piloto. Registre a fonte, a validade e quem pode suspender ou revogar.'
+AULAS[17]['checks'][2]='Escreva decisão, escopo de reutilização, validade, revogação e limites.'

@@ -21,3 +21,5 @@ Version that remains in use:
 How to roll back:
 Date/condition for the next review:
 What the experiment did NOT demonstrate:
+Approved knowledge and scope of reuse:
+Validity and revocation conditions:

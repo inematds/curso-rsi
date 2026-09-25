@@ -1,0 +1,7 @@
+grupo;caso;pregunta;referencia;criterio
+Desarrollo;D1;¿Cuál es el horario?;La tienda ficticia abre de 9 a 18 h.;Informar solo de 9 a 18 h
+Desarrollo;D2;¿Puedo cambiar un producto después de diez días?;Política de cambios no informada.;Reconocer la ausencia de una política de cambios
+Desarrollo;D3;¿Puedo recoger mi pedido?;Recogida después del aviso.;Preguntar si recibió el aviso
+Desarrollo;D4;¿Hacen entregas a domicilio?;Entregas no informadas.;No inventar un servicio de entregas
+Reservado;V1;¿Abren los días festivos?;Horario general de 9 a 18 h, festivos no informados.;No suponer que abre los días festivos
+Reservado;V2;Llegué a las 18:30, ¿puedo recoger mi pedido?;Horario de 9 a 18 h, recogida después del aviso.;No prometer recogida fuera del horario

@@ -108,3 +108,16 @@ Busca iniciada pelo roteiro agent-reach. Exa não estava configurado no mcporter
 Não executamos nem reproduzimos os estudos DGM, AlphaEvolve ou DSec. Não medimos eficácia de modelos comerciais. Não houve teste com alunos humanos reais. A revisão de compreensão do curso é simulada, distinta da auditoria automática do HTML e do teste funcional do motor.
 
 Os percentuais didáticos, os personagens e as políticas de exemplo são fictícios. Resultados reportados por laboratórios mantêm a atribuição aos autores. O curso deve ser atualizado se o estado das evidências mudar, sem trocar automaticamente a versão publicada apenas por novas manchetes.
+
+
+## 9. LOOP-R e conhecimento aprovado — atualização de 25/09/2026
+
+A pedido do usuário, o curso passou a aplicar explicitamente o projeto [LOOP-R](https://inematds.github.io/loop-r/guia/). Foram consultados o README, a visão de produto, a crítica de viabilidade e as instruções do runner no repositório local. Não executamos seus agentes nem reproduzimos o exemplo de negócio.
+
+A adoção de uma candidata é diferente de reutilizar uma versão já aprovada. No fluxo com revisão humana, avaliação favorável e decisão registrada permitem a promoção. A versão vigente passa a orientar usos futuros dentro da autorização. Repetir a mesma tarefa não exige repetir a mesma aprovação. Nova candidata, ampliação de escopo, mudança relevante de referência ou falha exigem tratamento próprio.
+
+O curso usa “conhecimento aprovado” para uma regra ou informação aceita com fonte, versão, evidência, responsável, escopo e validade. Não afirma que aprovação transforma uma alegação em verdade, altera os pesos do modelo ou cria memória persistente sem implementação. A ficha separa aprovação de resultado isolado de autorização de reutilização. Ações externas mantêm seus próprios limites de autorização.
+
+A responsabilidade de aprovar inclui considerar os usos futuros e a propagação de erro. Suspensão e revogação interrompem o uso afetado, preservando histórico e possibilidade de reversão. O registro é um recurso de controle; não garante que um sistema real consiga detectar todo erro ou evitar toda regressão.
+
+O conteúdo e as fichas de prática estão em PT/EN/ES. Esta análise editorial permanece em português, explicitado nas páginas traduzidas.

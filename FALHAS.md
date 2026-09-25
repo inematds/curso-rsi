@@ -2,6 +2,8 @@
 
 | data | o que quebrou | menor correção | prompt / infra |
 |---|---|---|---|
+| 2026-09-25 | Tradução ES alterou pergunta do exercício e usou falsos cognatos | Corrigir cache nas 18 aulas, preservar perguntas originais e remontar | prompt |
+| 2026-09-25 | Ampliação LOOP-R introduziu jargão no texto iniciante | Substituir framework por método e prática sem instalação por prática no papel | prompt |
 | 2026-09-25 | Glossário preparado na pasta RSI em vez da pasta do curso | Mover para curso-rsi/i18n e usar diretório explícito | prompt |
 | 2026-09-25 | Alteração de um item reformatou o enrichment inteiro | Preservar serialização existente e inserir apenas o item | prompt |
 | 2026-09-25 | Práticas sem dados completos e caso reservado no bloco inicial | Acrescentar casos fechados e separar etapa de validação | prompt |

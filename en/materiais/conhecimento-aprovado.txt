@@ -1,0 +1,26 @@
+RSI v6.2 — Approved knowledge worksheet (LOOP-R)
+Use fictional data or authorized materials.
+
+Rule or information identifier and version:
+Exact approved content:
+Type: source-supported fact / operating rule / preference
+Source and source version:
+Evidence and tests checked:
+Who approved it and on what date:
+Decision applies to: this result only / reuse in the cases below
+Authorized scope of reuse:
+Actions that were NOT authorized:
+Validity and conditions that suspend use:
+Record location the system will consult:
+Who can revoke approval and how:
+Previous version and rollback procedure:
+
+Usage rule: if the record is current and the case is within scope,
+reuse it without requesting the same approval. Checking validity is not requesting approval.
+A relevant change, contradiction, error or expired validity: suspend affected use and review.
+A new action outside the scope: obtain specific authorization before carrying it out.
+Revocation disables use without deleting history.
+
+Before approving: do I understand what will be reused, by whom and in which situations?
+What error could be repeated? How can it be detected, corrected and communicated to those affected?
+Approval does not make information true or authorize every action.

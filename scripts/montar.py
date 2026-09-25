@@ -68,7 +68,7 @@ lp=lp.replace('<h2>As aulas</h2>','<h2>Seis módulos, uma prática por aula</h2>
 lp=lp.replace('<div class="aulas">\n<!--AULAS-->','<div>\n<!--AULAS-->')
 lp=lp.replace('começar pela aula 1 →','abrir a trilha →')
 lp=lp.replace('</head>','<link rel="canonical" href="https://inematds.github.io/curso-rsi/">\n<meta property="og:image" content="https://inematds.github.io/curso-rsi/capa/capa.png">\n</head>')
-lp=lp.replace('</main>','''<section class="l-sec"><h2>Pesquisa com fonte e contexto</h2><p>AlphaEvolve, Darwin Gödel Machine, AI Scientist, DSec e estudos de avaliação. Fontes originais junto de cada aula, consultadas em 25/09/2026.</p><p>Marina e Ícaro são personagens fictícios. As telas ilustram comparações; não apresentam resultados medidos de ferramentas.</p><p>As práticas ensinam melhoria supervisionada. Não prometem criar uma IA autônoma nem treinar um novo modelo.</p><p><a href="docs/pesquisa.md">Ler a pesquisa e as decisões editoriais</a> · <a href="materiais/ficha-experimento.txt" download>Baixar ficha de experimento</a> · <a href="materiais/casos-atendimento.csv" download>Baixar casos de treino</a></p></section></main>''')
+lp=lp.replace('</main>','''<section class="l-sec"><h2>Pesquisa com fonte e contexto</h2><p>AlphaEvolve, Darwin Gödel Machine, AI Scientist, DSec e estudos de avaliação. Fontes originais junto de cada aula, consultadas em 25/09/2026.</p><p>Marina e Ícaro são personagens fictícios. As telas ilustram comparações; não apresentam resultados medidos de ferramentas.</p><p>As práticas ensinam melhoria supervisionada. Não prometem criar uma IA autônoma nem treinar um novo modelo.</p><p><a href="docs/pesquisa.md">Ler a pesquisa e as decisões editoriais</a> · <a href="materiais/ficha-experimento.txt" download>Baixar ficha de experimento</a> · <a href="materiais/casos-atendimento.csv" download>Baixar casos de treino</a> · <a href="materiais/conhecimento-aprovado.txt" download>Baixar ficha de conhecimento aprovado</a></p></section></main>''')
 if (B/'context/portal.json').exists():
  meta=json.loads((B/'context/portal.json').read_text())
  lp=lp.replace('<!-- inema-backlink:v1 — o link da ficha (/cursos/<id>-<slug>/) entra no cadastro do portal (atualiza-portal) -->', '<!-- inema-backlink:v1 -->'+'<p><a href="'+e(meta['ficha'])+'">Ficha completa deste curso no INEMA.CLUB</a></p>')
@@ -77,3 +77,10 @@ subprocess.run(['python3',str(S/'scripts/montar-curso.py'),str(B)],check=True)
 (B/'index.html').write_text((B/'landing.html').read_text())
 (B/'context/curriculo.md').write_text('# Currículo RSI v6.2\n\nPúblico proposto: gestores de pequenas empresas e educadores iniciantes. Conhecimento esperado: leitura, notas e uso básico de chat. Nenhuma programação.\n\nDescoberta perguntada; perfil assumido e comunicado durante a execução. Saída: planejar e avaliar um ciclo supervisionado.\n\nFormato solicitado v6.2; motor local da família v6 inclui refinamento compatível de módulos da v6.3. Não foi alterado.\n\n'+ '\n'.join(f'{i}. **{a["titulo"]}** ({tempos[i-1]} min). Promessa: {a["promessa"]} Tipo: fundamento/aplicação. Gancho: '+(AULAS[i]['titulo'] if i<18 else 'Repetir um piloto próprio.') for i,a in enumerate(AULAS,1)))
 print('Conteúdo:',len(AULAS),'aulas;',sum(tempos),'minutos')
+
+# Snapshot before language selectors and course-specific links are injected.
+import importlib.util
+spec=importlib.util.spec_from_file_location('tradutor_v6',S/'scripts/traduzir-curso.py')
+tradutor=importlib.util.module_from_spec(spec);spec.loader.exec_module(tradutor)
+(B/'i18n').mkdir(exist_ok=True)
+(B/'i18n/unidades-pt.json').write_text(json.dumps(tradutor.unidades(str(B)),ensure_ascii=False,indent=1)+'\n')

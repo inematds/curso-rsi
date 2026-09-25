@@ -1,16 +1,37 @@
 {
- "en": {
-  "automelhoria recursiva": "recursive self-improvement",
-  "autoaperfeiçoamento recursivo": "recursive self-improvement",
-  "casos reservados": "held-out cases",
-  "casos de desenvolvimento": "development cases",
-  "fiel à referência": "faithful to the reference",
-  "sem inventar": "without fabricating facts",
-  "ganho confiável": "reliable improvement",
-  "responsável pela decisão": "person responsible for the decision",
-  "reversão": "rollback",
-  "LOOP-R": "LOOP-R (keep this project-specific name unchanged)",
-  "RSI": "RSI (recursive self-improvement)",
-  "IA Cultivada": "IA Cultivada (project-specific name, not a universal standard)"
- }
+  "en": {
+    "automelhoria recursiva": "recursive self-improvement",
+    "autoaperfeiçoamento recursivo": "recursive self-improvement",
+    "casos reservados": "held-out cases",
+    "casos de desenvolvimento": "development cases",
+    "fiel à referência": "faithful to the reference",
+    "sem inventar": "without fabricating facts",
+    "ganho confiável": "reliable improvement",
+    "responsável pela decisão": "person responsible for the decision",
+    "reversão": "rollback",
+    "LOOP-R": "LOOP-R (keep this project-specific name unchanged)",
+    "RSI": "RSI (recursive self-improvement)",
+    "IA Cultivada": "IA Cultivada (project-specific name, not a universal standard)",
+    "conhecimento aprovado": "approved knowledge",
+    "ensaio": "test (not essay)",
+    "troca": "exchange of purchased goods when discussing the store",
+    "notas": "grades in school administration, notes in note-taking",
+    "aprovação": "approval",
+    "revogar": "revoke"
+  },
+  "es": {
+    "conhecimento aprovado": "conocimiento aprobado",
+    "casos reservados": "casos reservados para validación",
+    "ensaio": "prueba",
+    "trocas": "cambios de productos, cuando se refiere a la tienda",
+    "notas": "calificaciones escolares o apuntes, según el contexto",
+    "aprovação": "aprobación",
+    "reutilizar": "reutilizar",
+    "revogar": "revocar",
+    "LOOP-R": "LOOP-R",
+    "RSI": "RSI",
+    "A falha": "A falla (A es el nombre de la versión, no un artículo)",
+    "Conte perguntas": "Cuenta preguntas (contar, no formular)",
+    "IA Cultivada": "IA Cultivada (nombre propio del proyecto)"
+  }
 }

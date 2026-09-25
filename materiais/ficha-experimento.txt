@@ -21,3 +21,5 @@ Versão que continua vigente:
 Como reverter:
 Data/condição da próxima revisão:
 O que o ensaio NÃO demonstrou:
+Conhecimento aprovado e escopo de reutilização:
+Validade e condições de revogação:

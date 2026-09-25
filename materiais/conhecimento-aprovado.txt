@@ -1,0 +1,26 @@
+RSI v6.2 — Ficha de conhecimento aprovado (LOOP-R)
+Use dados fictícios ou materiais autorizados.
+
+Identificador e versão da regra ou informação:
+Conteúdo exato aprovado:
+Tipo: fato apoiado em fonte / regra operacional / preferência
+Fonte e versão da fonte:
+Evidências e testes conferidos:
+Quem aprovou e em qual data:
+Decisão vale para: este resultado apenas / reutilização nos usos abaixo
+Escopo de reutilização autorizado:
+Ações que NÃO foram autorizadas:
+Validade e condições que suspendem o uso:
+Local do registro que o sistema consultará:
+Quem pode revogar e como:
+Versão anterior e caminho de reversão:
+
+Regra de uso: se o registro está vigente e o caso está dentro do escopo,
+reutilize sem pedir a mesma aprovação. Conferir validade não é pedir aprovação.
+Mudança relevante, contradição, erro ou fim da validade: suspenda o uso afetado e revise.
+Nova ação fora do escopo: obtenha autorização específica antes de executá-la.
+Revogar desativa o uso, sem apagar o histórico.
+
+Antes de aprovar: compreendo o que será reutilizado, por quem e em quais situações?
+Que erro poderia se repetir? Como detectar, corrigir e avisar os afetados?
+Aprovar não torna uma informação verdadeira nem autoriza qualquer ação.

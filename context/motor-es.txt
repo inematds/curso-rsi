@@ -1,0 +1,28 @@
+OK    tema papel por padrão
+OK    sem modal/painel na 1ª visita
+OK    "revisar" escondido na 1ª visita
+OK    trilha: botão continuar aponta para a aula 1
+OK    trilha: cards gerados  (18 cards)
+OK    aula: dica de 1 linha aparece
+OK    aula: kicker com tempo
+OK    progresso automático por rolagem  (3/3)
+OK    tela simulada alterna os casos
+OK    termo abre e fecha a definição inline
+OK    teste-se mostra feedback
+OK    prática: marcar os passos conclui
+OK    concluir aula marca a aula
+OK    cartões entram no revisar só agora  (3 cartões)
+OK    "revisar N" aparece na barra
+OK    painel revisar abre com pergunta
+OK    avaliar avança a revisão
+OK    menu abre
+OK    jornada lista a capacidade da aula concluída
+OK    práticas do curso listadas
+OK    Aa abre o painel
+OK    Aa aumenta a letra
+OK    Aa troca o tema
+OK    tema e conclusão persistem após recarregar
+OK    trilha mostra a aula 1 como concluída
+OK    zero erro de JavaScript
+
+26/26 comportamentos OK
