@@ -18,6 +18,7 @@ for lang in ('pt','en','es'):
             for a in soup.select('a[href]'):
                 if a['href']=='docs/pesquisa.md':
                     a['href']='../docs/pesquisa.md';a.string={'en':'Read the research and editorial decisions (Portuguese)','es':'Leer la investigación y las decisiones editoriales (portugués)'}[lang]
+                if a['href']=='https://inematds.github.io/loop-r/guia/':a['href']+=lang+'/'
                 if a['href'] in ('https://inema.club','https://inema.club/'):a['href']='https://inema.club/'+lang+'/'
             # The official tool translates description but leaves social metadata in PT.
             for key,selector in [('og:title','title'),('og:description','meta[name="description"]')]:
