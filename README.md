@@ -38,3 +38,11 @@ Para remontar usando o cache revisado, acrescente `--so-montar` ao tradutor. As 
 Curso, guia original e área de Eventos disponíveis em PT/EN/ES.
 
 As aulas 4–6 aplicam LOOP-R: promoção, memória aprovada e reutilização sem repetir a mesma aprovação dentro do escopo. As aulas 17–18 incluem validade, suspensão e revogação no projeto final. Ficha adicional em `materiais/conhecimento-aprovado.txt`.
+
+<!-- inema-backlink:v1 -->
+## Mais no INEMA.CLUB
+
+- [Ficha completa deste curso](https://www.inema.club/cursos/289-rsi-v6-2-entenda-e-aplique-ciclos-de-melhoria-em-ia/)
+- [Guia: como aprender inteligência artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.inema.club/cursos/)
+<!-- /inema-backlink:v1 -->
